@@ -4,7 +4,7 @@
   "description": "Webpack loader; runs official less/parse to expose less variables to your js. No more defining the same colors in both less and js!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf lib && mkdir lib && babel --out-dir lib src",
     "prepublish": "npm run build"
   },
